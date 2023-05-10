@@ -24,5 +24,6 @@ function createImgCard (galleryItems) {
         `;
     }).join("");
 }
+
 const lightbox = new SimpleLightbox(".gallery__link", 
 { captionsData: "alt", captionDelay: "250" })
